@@ -1,0 +1,55 @@
+@media (min-width: 320px) and (max-width: 900px) {
+    .container {
+        width: 20.3125rem;
+        height: 68vh;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .image_div {
+        width: 100%;
+        height: 40%;
+    }
+
+    .perfume_img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.75rem 0.75rem 0 0;
+    }
+
+    .description_div {
+        width: 100%;
+        height: 60%;
+        border-radius: 0 0 0.75rem 0.75rem;
+        padding: 1.1875rem;
+    }
+
+    .para_heading {
+        font-size: 0.8125rem;
+        letter-spacing: 0.1875rem;
+        line-height: 0.25rem;
+    } 
+
+    .para_title {
+        font-size: 1.875rem;
+        line-height: 1.875rem;
+    }
+
+    .para_description {
+        font-size: 0.875rem;
+        margin: 0.9375rem 0;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+
+    .btn {
+        margin-top: 1.25rem;
+        padding: 0.9375rem 0;
+    }
+}
