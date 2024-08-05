@@ -1,0 +1,66 @@
+
+@media (min-width: 300px) and (max-width:350px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .container {
+        padding: 0.95rem;
+    }
+    
+    .preparation {
+        height: 14rem;
+        padding: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .preparation ul div {
+        margin-left: 0.55rem;
+    }
+
+    .ingredients ul div {
+        margin-left: 0.55rem;
+    }
+
+    .left {
+        margin: 1rem 0.5rem;
+        text-align: start;
+    }
+}
+
+@media (min-width: 350px) and (max-width:414px) {
+    .container {
+        width: 90%;
+        padding: 1.3rem;
+    }
+
+    .omlet_img {
+        border-radius: 0.75rem;
+    }
+
+    h1 {
+        font-size: 2.1rem;
+    }
+
+    .preparation {
+        height: 13rem;
+        padding: 1.25rem;
+    }
+
+    .preparation ul div {
+        margin-left: 0.75rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (min-width:414px) and (max-width:860px) {
+    .container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .preparation {
+        height: 13rem;
+        padding: 1.25rem;
+    }
+}

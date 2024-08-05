@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+html , body{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.attribution {
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: hsl(0, 0%, 100%);
+    padding: 3rem;
+    border-radius: 1.25rem;
+}   
+
+.omlet_img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    margin: 2rem 0;
+    font-weight: 400;
+}
+
+p {
+    display: inline;
+    font-size: 1rem;
+    color: hsl(24, 5%, 18%);
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.65rem;
+    margin: 1.25rem 0;
+}
+
+.preparation {
+    background-color:hsl(330, 100%, 98%);
+    height: 15rem;
+    padding: 2.25rem;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation ul {
+    margin: 0 1.6rem;
+}
+
+.preparation ul div {
+    margin-left: 1.2rem;
+}
+
+.preparation ul li {
+    color: hsl(332, 51%, 32%);
+    
+}
+
+span {
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.ingredients {
+    margin: 2rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.ingredients ul {
+    margin: 0 1.6rem 3rem 1.6rem;
+}
+
+.ingredients li {
+    margin-left: 1rem;
+}
+
+.ingredients div {
+    margin-left: 2rem;
+}
+
+.ingredients ul li {
+    color: hsl(332, 51%, 32%);
+    line-height: 2rem;
+}
+
+.instructions ol {
+    list-style: none;
+    counter-reset: list-counter;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.instructions ol li{
+    color: hsl(332, 51%, 32%);
+    counter-increment: list-counter;
+    padding-left: 1.5em;
+    position: relative;
+    margin: 1rem 0.75rem;
+}
+
+.instructions ol li::before {
+    content: counter(list-counter) ". ";
+    position: absolute;
+    left: 0; 
+    width: 1.5em;
+    text-align: left;
+    font-weight: 700;
+}
+
+.nutrition_para{
+    margin:  0 0 2rem 0;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.left, .right {
+    text-align: left;
+    width: 50%;
+    margin:1rem 2rem;
+}
+
+.right {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 90%;
+    }
+}

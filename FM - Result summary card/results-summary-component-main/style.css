@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 65%;
+    width: 45%;
+    box-shadow: 0.5rem 2.5rem 5.5rem rgba(0, 0, 0, 0.075);
+    border-radius: 2rem;
+}
+
+.result {
+    text-align: center;
+    width: 52%;
+    border-radius: 2rem;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 2rem;
+}
+
+.result .para_1 {
+    font-size: 1.8rem;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+.your_score {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+    height: 45%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.your_score span{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: hsla(0, 0%, 100%);
+}
+
+.your_score p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.result .para_2 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%);
+    margin-top: 4rem;
+}
+
+.result .para_3 {
+    font-size: 1.2rem;
+    color: hsla(0, 0%, 100%, 0.8);
+    margin: 0.75rem 2.8rem;
+}
+
+.summary {
+    width: 48%;
+    border-radius: 0 2rem 2rem 0;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+}
+
+.summary p {
+    text-align: start;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.box {
+    margin: 1.3rem 0;
+    padding: 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+
+.box1 {
+    background-color: hsla(0, 100%, 67%, 0.08);
+}
+
+.box2 {
+    background-color: hsl(39, 100%, 56%, 0.08);
+}
+
+.box3 {
+    background-color: hsl(166, 100%, 37%, 0.08);
+}
+
+.box4 {
+    background-color: hsl(234, 85%, 45%, 0.08);
+}
+
+.Reaction {
+    color: hsla(0, 100%, 67%);
+}
+
+.Memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.Verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.Visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.box .name {
+    display: flex;
+}
+
+.box .name img {
+    margin-right: 0.5rem;
+}
+
+._100 {
+    opacity: 0.6;
+}
+
+.button {
+    text-align: center;
+    padding: 1.2rem;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 2rem;
+    margin-top: 5rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
