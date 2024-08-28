@@ -1,0 +1,10 @@
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .card {
+        width: 18rem;
+    }
+
+    .img_container {
+        height: 17rem;
+    }
+}
