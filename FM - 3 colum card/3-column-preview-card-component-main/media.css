@@ -1,0 +1,48 @@
+@media (min-width:800px) and (max-width: 980px) {
+    .segment {
+        max-width: 17rem;
+        padding: 2.25rem;
+    }
+
+    .segment img {
+        width: 3.5rem;
+    }
+
+    .segment h1 {
+        font-size: 2.5rem;
+    }
+
+    .segment p {
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width:300px) and (max-width: 800px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        overflow: auto;
+    }
+
+    .segment {
+        padding: 3.25rem;
+        max-width: 85%;
+        gap: 3rem;
+    }
+
+    .segment p {
+        line-height: 2rem;
+    }
+
+    .sedans {
+        border-radius: 0.5rem 0.5rem 0 0;
+        margin-top: 5rem;
+    }
+
+    .luxury {
+        border-radius: 0 0 0.5rem 0.5rem;
+        margin-bottom: 5rem;
+    }
+}
