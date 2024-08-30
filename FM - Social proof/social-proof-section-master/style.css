@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    background: url(images/bg-pattern-top-mobile.svg) top left, url(images/bg-pattern-bottom-mobile.svg) bottom right;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    padding: 4rem 1.5rem;
+}
+
+.top_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_section .left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+
+.top_section .left h1 {
+    font-size: 2.75rem;
+    line-height: 2.25rem;
+    color: hsl(300, 43%, 22%);
+}
+
+.top_section .left p {
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    color: hsl(303, 10%, 53%);
+}
+
+.top_section .right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-block: 2rem;
+    gap: 1rem;
+}
+
+.top_section .right .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: hsl(300, 24%, 96%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.top_section .right .rating p {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+
+.rating .stars {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.reviews .review_card {
+    background-color: hsl(300, 43%, 22%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.reviews .review_card .title {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.reviews .review_card .title .pro_img img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.reviews .review_card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.reviews .review_card .description {
+    font-size: 1.075rem;
+    line-height: 1.5rem;
+    margin-top: 1.75rem;
+}
+
+.reviews .review_card .user-name {
+    color: hsl(0, 0%, 100%);
+}
+
+.reviews .review_card .user-stat {
+    color: hsl(333, 80%, 67%);
+}
+
+.reviews .review_card .description {
+    color: hsl(300, 24%, 96%);
+}
